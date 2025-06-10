@@ -115,3 +115,18 @@ display: flex;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
 }
+
+.part1{
+margin-top: 50px;
+}
+
+.part1-item{
+    display: flex;
+    margin-top: 50px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.item img{
+    width: 60px;
+    height: 60px;
+}

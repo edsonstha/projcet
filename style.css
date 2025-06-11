@@ -16,8 +16,8 @@ html{
     background: gray;
     border-radius: 10px;
     position: sticky;
-    top: 1%;
-    bottom: 1%;
+    top: 0%;
+    z-index: 1;
     display: flex;
 }
 
@@ -126,7 +126,7 @@ display: flex;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
 }
-
+/* 
 .part1{
 margin-top: 100px;
 }
@@ -146,17 +146,16 @@ margin-top: 100px;
 }
 .item-right{
     border: 1px solid transparent;
-    /* text-align: center; */
+    
     padding: 35px;
     margin: 30px;
     display: flex;
 }
 .item-p{
-    position: absolute;
-    margin-top: 175px;
-    left: 7.8%;
+    position: relative;
+    margin-top: 200px;
+    right: 12%;
     font-size: 1.9rem;
-    
 }
 
 .service-plum h2{
@@ -165,8 +164,8 @@ margin-top: 100px;
 
 }
 .service-plum p{
-    font-size: 1.5rem;
-    margin-left: 200px;
+    font-size: 1rem;
+    margin-left: 160px;
 }
 .service-plum li{
     margin-left: 17.5%;
@@ -176,7 +175,7 @@ margin-top: 100px;
 
 .item-left{
     border: 1px solid transparent;
-    /* text-align: center; */
+    text-align: center;
     padding: 35px;
     margin: 30px;
     display: flex;
@@ -198,7 +197,7 @@ margin-top: 100px;
     margin-right: 63%;
 }
 .service-plum-ri p{
-   font-size: 1.5rem;
+   font-size: 1rem;
     margin-right: 200px;
 }
 .service-plum-ri li{
@@ -221,8 +220,9 @@ margin-top: 100px;
     cursor: pointer;
     z-index: -1;
 }
-
-/* footer */
+ */
+/* 
+footer */
 footer{
     margin-top: 15px;
     }
@@ -239,7 +239,7 @@ footer{
         font-weight: 100;
     }
 .foot-pannel a:hover{
-    transform: scale(1.011);
+    transform: scale(1.01);
     transition: all .5;
 }
     .foot-pannel2{
@@ -346,3 +346,129 @@ ul p a:hover{
         width: 30px;
         height: 30px;
     }
+
+    /* Improved service card styling */
+/* .part1-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 5%;
+}
+
+.item-right, .item-left {
+    display: flex;
+    align-items: center;
+    
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.item-right:hover, .item-left:hover {
+    transform: scale(1.001);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.service-plum, .service-plum-ri {
+    flex: 1;
+}
+
+.btn-item, .btn-item-lft {
+    padding: 0.8rem 1.2rem;
+    background: #2a6bcc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-item:hover, .btn-item-lft:hover {
+    background: #1a5bbf;
+} */
+.part1-title{
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+}
+.part1-item{
+    display: flex;
+    position: relative;
+    margin-left: 200px;
+} 
+.left-pic{
+    /* text-align: center;   */
+    position: relative;
+    left: 100px;
+    margin-top: 20px;
+}
+.item-right{
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 15px;
+}
+.item-right:hover{
+    box-shadow: 0.5px 1.5x 10px #535455d1;
+    transform: scaleY(1.005);
+    transition: all .5s;
+    border: 1px solid rgba(83, 81, 81, 0.445);
+    display: inline-block;
+}
+
+.item-right img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    /* text-align: center; */
+}
+.service-plum h2{
+    font-size: 1.5rem;
+    width: 200px;
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.service-plum p{
+    font-size: 1rem;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.service-plum ul{
+    margin-top: 8px;
+    margin-left: 18px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.btn-item{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #2a6bcc;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-item:hover {
+    background-color: #1a5bbf;
+    transform: translateY(-2px);
+}
+.fir{
+    margin-top: 16.5px;
+}
+.thir{
+    margin-top: 31px;
+}
+ 

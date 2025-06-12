@@ -64,18 +64,17 @@ html{
 .list a::after{
     content: '';
     width: 0%;
-    height: 3px;
+    height: 2.5px;
     bottom: -3px;
     left: 0;
     background: white;
     display: block;
-    transition: all 1s;
+    transition: all .75s;
 }
 
 .list a:hover::after{
     width: 100%;
 }
-
 .find a{
     color: white;
     text-decoration: none;

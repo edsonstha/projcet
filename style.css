@@ -5,8 +5,9 @@
 }
 html{
     scroll-behavior: smooth;
-
+    scroll-padding-top: 90px;
 }
+
 .navbar{
     width: 99%;
     height: 100%;
@@ -87,6 +88,7 @@ html{
 main{
     width: 100%;
     height: 100%;
+
 }
 .content{
     text-align: center;
@@ -286,9 +288,9 @@ ul p a:hover{
 }
 .item-right:hover{
     box-shadow: 0.5px 1.5x 10px #535455d1;
-    transform: scaleY(1.005);
+    transform: scaleY(1.0039);
     transition: all .5s;
-    border: 1px solid rgba(83, 81, 81, 0.445);
+    border: 1.1px solid rgba(83, 81, 81, 0.450);
     display: inline-block;
 }
 
@@ -326,20 +328,27 @@ ul p a:hover{
     border: none;
     border-radius: 8px;
     text-decoration: none;
-    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .btn-item:hover {
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
     background-color: #1a5bbf;
     transform: translateY(-2px);
 }
 .fir{
     margin-top: 16.5px;
+    display: inline-block;
+    cursor: pointer;
 }
 .thir{
     margin-top: 31px;
+    cursor: pointer;
+    display: inline-block;
 }
+
+
 .review-up{
     margin-top: 10px;
     margin-left: 50px;
@@ -372,7 +381,97 @@ ul p a:hover{
 }
 
 .review-ls{
-    margin-top: 60px;
-    position: relative;
-    top: 120px;
+    margin-top: 120px;
+    margin-left: 50px;
+
+}
+.review-ls h3{
+    font-size: 2.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40px;
+}
+.review-ls span{
+    display: flex;
+    margin-left: 40px;
+}
+.review-ls span img{
+    width: 127px;
+    height: 123px;
+    position: absolute;
+    top: 282%;
+    padding-left: 30px;
+}
+
+.review-rate {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+.star{
+    font-size: 0.8rem;
+    margin-top: 28.1px;
+    padding-left: 140px;
+    color: #445b58;
+}
+.review-list{
+    border: 1px solid rgba(172, 178, 178, 0.126);
+    width: 400px;
+    height: 420px;
+    margin-left: 25px;
+    margin-right: 13px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.review-list:hover{
+    transform: scaleY(1.002);
+    border: 1px solid  rgba(172, 178, 178, 0.534);
+    transition: all .5s;
+}
+.review-people{
+    display: flex;
+    margin-top: 20px;
+}
+.review-content{
+    padding-top: 15px;
+    display: inline-block;
+    display: grid;
+    line-height: 10px;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    margin-right: 100px;
+}
+#days{
+    color: rgb(95, 94, 94);
+    font-size: 0.95rem;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.people{
+    width: 55px;
+    height: 55px;
+    margin-left: 27px;
+    border-radius: 50%;
+}
+.google{
+    width: 26px;
+    height: 26px;
+    margin-left: 75px;
+    padding-top: 10px;
+}
+#rate img{
+    width: 100px;
+    height: 100px;
+    margin-top: -25px;
+    margin-left: 31px;
+    margin-bottom: -20px;
+}
+
+#rate p{
+    font-size: 1.1rem;
+    margin-left: 30px;
+    width: 350px;
+    height: 100px;
+}
+#review{
+    display: flex;
+    margin-left: 10px;
 }

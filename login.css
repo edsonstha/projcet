@@ -195,6 +195,55 @@ textarea{
     left: 25px;    
 }
 
+@media (max-width: 768px) {
+    .contact_us {
+        width: 100%;
+        height: auto;
+    }
+    
+    .rotate {
+        width: 100%;
+    }
+    
+    fieldset {
+        width: 90%;
+        left: 5%;
+        top: 20px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .submit {
+        padding: 15px;
+        width: calc(100% - 16px);
+        margin-left: 0;
+    }
+    
+    .tera {
+        position: static;
+        left: auto;
+        margin: 20px 0;
+    }
+    
+    textarea {
+        width: calc(100% - 50px);
+        left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    .title {
+        font-size: 0.9rem;
+    }
+    
+    .para1 {
+        margin-left: 10px;
+    }
+}
 form{
     position: relative;
     top: 17px;
@@ -235,4 +284,64 @@ textarea::placeholder {
     width: 1518px;
     height: 700px;
     position: relative;
+}
+
+/* Media */
+@media (max-width: 768px) {
+    fieldset {
+        width: 90%;
+        left: 5%;
+        top: 10px;
+    }
+    
+    .submit {
+        padding: 18px 10px;
+    }
+    
+    .back a {
+        padding-left: 40%;
+    }
+    
+    .form-container {
+        padding: 20px;
+    }
+    
+    .form-title {
+        font-size: 1.5rem;
+    }
+    
+    input {
+        width: 100%;
+    }
+    
+    .username input {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    textarea {
+        width: 100%;
+        left: 0;
+    }
+    
+    .submit {
+        padding: 15px;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-title {
+        font-size: 1.3rem;
+    }
+    
+    .para1 {
+        margin-left: 10px;
+    }
+    
+    .name {
+        width: 100%;
+        margin-left: 0;
+    }
 }

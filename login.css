@@ -100,7 +100,6 @@ label{
 fieldset{
     background-color: #FFFFFF;
     border: 1px solid transparent;
-    /* transform: rotate(0deg); */
     width: 500px;
     height: 560px;
     z-index: 1;
@@ -139,7 +138,7 @@ input:placeholder-shown{
 }
 
 .name{ 
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: 20px;
     width: 380px;
 }
@@ -151,7 +150,7 @@ input:placeholder-shown{
 
 .username input{
     width: 260px;
-    height: 50px;
+    height: 30px;
     margin-left: 23px;
     margin-top: 0px;
     border-radius: 5px;

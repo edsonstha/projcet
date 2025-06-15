@@ -364,7 +364,7 @@ footer {
     width: 99%;
     margin-left: 10px;
     margin-top: 5px;
-    background: gray;
+    background: #2c3e50;
     border-radius: 10px;
     position: sticky;
     top: 0%;
@@ -534,72 +534,65 @@ footer {
     }
 }
  .container {
-            width: 97.3%;
-            height: 300px;
-            margin-top: -50px;
-            padding-left: 20px;
-            padding-bottom: 20px;
-            padding-right: 20px;
-            background: rgb(200, 193, 193);
-            position: relative;
-            top: -32px;
+  width: 97.3%;
+  height: 300px;
+  margin-top: -50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background: #a8bacc;
+  position: relative;
+  top: -32px;
             
-        }
-
-        /* Breadcrumb Styles */
-        .breadcrumb {
-            padding: 50px 0px;
-            margin-bottom: 30px;
-            margin-left: 120px;
-            background-color: transparent;
-        }
-
-        .breadcrumb-title {
-            font-size: 2.5rem;
-            font-weight: 600;
-            color: #2c3e50;
-            margin-top: 90px;
-            margin-bottom: 10px;
-        }
-
-        .breadcrumb-nav {
-            display: flex;
-            align-items: center;
-            font-size: 14px;
-        }
-
-        .breadcrumb-nav a {
-            color: whitesmoke;
-            text-decoration: none;
-            font-size: 1.1rem;
-        }
-        
-        .breadcrumb-nav a:hover {
-            transition: all 0.6ms ease-in-out;
-            color: whitesmoke;
-            text-decoration: underline solid rgb(97, 96, 96);
-        }
-
-        .breadcrumb-separator {
-            margin: 0 8px;
-            color: #ffffff;
-            font-size: 1.1rem;
-            font-weight: 100;
-        }
-
-        .breadcrumb-current {
-            color: #ffffff;
-            font-size: 1.1rem;
-            font-weight: 100;
-        }
-
-        /* Responsive Adjustments */
-        @media (max-width: 768px) {
-            .breadcrumb-title {
-                font-size: 24px;
-            }
-            
-            .breadcrumb-nav {
-                font-size: 13px;
-            }
-        }
+}
+ /* Breadcrumb Styles */
+ .breadcrumb {
+     padding: 50px 0px;
+     margin-bottom: 30px;
+     margin-left: 120px;
+     background-color: transparent;
+}
+ .breadcrumb-title {
+     font-size: 2.5rem;
+     font-weight: 600;
+     color: #2c3e50;
+     margin-top: 90px;
+     margin-bottom: 10px;
+}
+ .breadcrumb-nav {
+     display: flex;
+     align-items: center;
+     font-size: 14px;
+}
+ .breadcrumb-nav a {
+     color: whitesmoke;
+     text-decoration: none;
+     font-size: 1.1rem;
+ }
+ 
+ .breadcrumb-nav a:hover {
+     transition: all 0.6ms ease-in-out;
+     color: whitesmoke;
+     text-decoration: underline solid rgb(97, 96, 96);
+}
+ .breadcrumb-separator {
+     margin: 0 8px;
+     color: #ffffff;
+     font-size: 1.1rem;
+     font-weight: 100;
+}
+ .breadcrumb-current {
+     color: #ffffff;
+     font-size: 1.1rem;
+     font-weight: 100;
+}
+ /* Responsive Adjustments */
+ @media (max-width: 768px) {
+     .breadcrumb-title {
+         font-size: 24px;
+     }
+     
+     .breadcrumb-nav {
+         font-size: 13px;
+     }
+ }

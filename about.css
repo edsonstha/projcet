@@ -375,7 +375,7 @@ footer {
 .navbar p{
     font-size: 1.2rem;
     color: white;
-    padding-top: -5px;
+    padding-top: 5px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -390,9 +390,8 @@ footer {
 }
 
 .head-sec{
-    /* margin-top: 10px; */
     display: flex;
-    margin-left: 20%;
+    margin-left: 25%;
     padding-top: 8px;
     padding-bottom: 5px;
 }
@@ -404,7 +403,7 @@ footer {
 
 .list a{
     padding-left: 50px;
-    margin-left: 35px;
+    margin-left: 20px;
     list-style: none;
     text-decoration: none;
     font-size: 1.1rem;

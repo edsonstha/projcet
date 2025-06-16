@@ -145,9 +145,12 @@ cursor: pointer;
     font-style: bold;
 }
 .part1-item{
-    display: flex;
-    position: relative;
-    margin-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 } 
 .left-pic{
     /* text-align: center;   */
@@ -257,7 +260,7 @@ cursor: pointer;
     height: 350px;
     position: absolute;
     right: 50px;
-    top: 233%;
+    top: 312.5%;
     border-radius: 10px;
     opacity: 0.9;
 }
@@ -289,9 +292,56 @@ cursor: pointer;
     width: 127px;
     height: 123px;
     position: absolute;
-    top: 292.7%;
+    top: 370.8%;
     padding-left: 29px;
 }
+.arrow-btn{
+    width: 0px;
+    height: 0px;
+    margin-top: 50%;
+    margin-left: 10%;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
+.arrow-btn {
+  display: inline-flex;
+  width:50px;
+  height:50px;
+  align-items:center;
+  justify-content:center;
+  border-radius:50px;
+  border:none;
+  -webkit-appearance:none;
+  appearance:none;
+  position:relative;
+  overflow:hidden;
+}
+
+.arrow-btn img {
+  display:block;
+  width:30px;
+}
+
+.arrow-btn:hover img {
+  animation: train;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.06, 1.01);
+}
+
+@keyframes train {
+    50% {
+        transform: translateX(calc(100% + 30px));
+    }
+    50.001% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform:translateX(0);
+    }
+}
+
 
 .review-rate {
     font-size: 1.25rem;

@@ -17,7 +17,7 @@
 .navbar p{
     font-size: 1.5rem;
     color: white;
-    padding-top: 20px;
+    padding-top: 16px;
     padding-left: 20px;
     display: inline-block;
 }
@@ -32,9 +32,9 @@
 }
 
 .head-sec{
+    margin-top: 3px;
     display: flex;
     margin-left: 25%;
-    padding-top: 8px;
     padding-bottom: 5px;
 }
 
@@ -59,7 +59,6 @@
     content: '';
     width: 0%;
     height: 2.5px;
-    bottom: -3px;
     left: 0;
     background: white;
     display: block;
@@ -79,7 +78,7 @@
     background: rgb(151, 121, 65);
 }
 .find{
-    margin-top: 10px;
+    margin-top: 18px;
     border-radius: 15px;
 }
 
@@ -271,11 +270,11 @@ margin-left: 30%;
     padding: 15px;
 }
 .item-right:hover{
-    box-shadow: 0.5px 1.5x 10px #535455d1;
+    box-shadow: 0px 1x 10px #535455;
     transform: scaleY(1.0039);
-    transition: all .5s;
-    border: 1.1px solid rgba(83, 81, 81, 0.450);
+    border: 0.5px solid  rgba(214, 214, 214, 0.81);
     display: inline-block;
+    transition: all .7s;
 }
 
 .item-right img{
@@ -298,9 +297,10 @@ margin-left: 30%;
 }
 .service-plum ul{
     margin-top: 8px;
-    margin-left: 18px;
+    margin-left: 8px;
     font-size: 1rem;
     margin-bottom: 10px;
+    list-style: none;
 }
 .btn-item{
     display: inline-block;
@@ -326,11 +326,14 @@ margin-left: 30%;
     margin-top: 16.5px;
     display: inline-block;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 .thir{
-    margin-top: 31px;
+    margin-top: 20px;
     cursor: pointer;
     display: inline-block;
+    margin-bottom: 10px;
+
 }
 .arrow::after{
     content: '→';

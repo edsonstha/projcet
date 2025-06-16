@@ -324,7 +324,7 @@ cursor: pointer;
   width:30px;
 }
 
-.arrow-btn:hover img {
+.arrow-btn:focus img {
   animation: train;
   animation-duration: 2s;
   animation-timing-function: cubic-bezier(0.785, 0.135, 0.06, 1.01);
@@ -634,7 +634,7 @@ margin-left: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 10;
     display: none; /* Hidden by default */
 }
 
@@ -649,14 +649,16 @@ margin-left: 30%;
 
 .login-message h2 {
     color: #333;
-    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
 }
 
 .login-message button {
     background-color: #4CAF50;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 25px;
+    margin-top: 25px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
